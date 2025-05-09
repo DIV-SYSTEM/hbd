@@ -14,7 +14,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
     super.initState();
     _controller = WebViewController()
       ..loadRequest(Uri.parse(
-          'https://bot.writesonic.com/share/bot/d4a4245e-d890-40b5-8746-34c5fe5eecd0'));
+          ''));
   }
 
   @override
